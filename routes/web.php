@@ -17,3 +17,8 @@ Route::get('/', function () {
     // return view('welcome');
     return view('e-learning');
 });
+
+Route::get('/smartUI', function () {
+    // return view('welcome');
+    return view('smartUI');
+});
