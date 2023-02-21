@@ -22,3 +22,13 @@ Route::get('/smartUI', function () {
     // return view('welcome');
     return view('smartUI');
 });
+
+Route::get('/test', function () {
+    // return view('welcome');
+    return view('test');
+});
+
+Route::get('/homesmart', function () {
+    // return view('welcome');
+    return view('homesmart');
+});
